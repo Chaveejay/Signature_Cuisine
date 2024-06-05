@@ -16,6 +16,7 @@
     }
     
 }
+
 *{
     margin: 0px;
     padding : 0px;
@@ -43,37 +44,12 @@
     animation-name: slideInLeft;
     animation-duration:1s ;
 }
-.sign-in{
+.sign-up{
     position: relative;
     top:20px;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: poppins;
-}
-.usertype{
-    font-size: 1rem;
-    margin: 8px;
-    
-}
-.dropdown{
-    /* background: #d7cccc; */
-    display: flex;
-    position: relative;
-    right: 20px;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: relative;
-    top:50px;
-    
-}
-#drop-down{
-    width: 200px;
-    height: 30px;
-    margin-top: 5px;
-    border-radius: 25px;
-    background-color: #e2cccc;
-    text-align: center;
-    border: none;
 }
 .form{
     position: relative;
@@ -82,10 +58,7 @@
     width: 200px;
     height: 30px;
 }
-.username, .password{
-    margin: 8px;
-}
-#username, #password{
+#username, #password, #email, #confirm-password{
     position: relative;
     width: 200px;
     height: 30px;
@@ -95,7 +68,7 @@
     text-align: center;
     border: none;
 }
-.signin-btn{
+.signup-btn{
     position: relative;
     height: 30px;
     width: 150px;
@@ -106,10 +79,10 @@
     border: 1px solid white;
     transition: all 0.8s ease;
 }
-.signin-btn:hover{
+.signup-btn:hover{
     background-color: #e2cccc;
 }
-.sign-up{
+.sign-in{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -132,7 +105,8 @@
     color: #ffffff;
     font-family: poppins;
 }
-.signup-btn{
+
+.signin-btn{
     position: relative;
     height: 30px;
     width: 150px;
@@ -144,6 +118,7 @@
     background-color: #dd6363;
     transition: all 0.8s ease;
 }
-.signup-btn:hover{
+
+.signin-btn:hover{
     background-color: #e2cccc;
 }
