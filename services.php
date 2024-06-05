@@ -47,6 +47,27 @@
     <!------------------Header-end------------------------>
 
     <!------------------Services------------------------>
+
+<!--------------Offers----------------->
+    <section id="offers">
+    <div class="order-caption">
+            <h1 class="gctext">Offers</h1>
+        </div>
+        <div class="offer-card-container">
+            <div class="offer-card">
+            <div class="offer-card-img">
+                <img src="images/offers/coke.jpg" alt="" class="offer-img-img">
+                </div>
+                <h6 class="offer-card-title">Free Coke </h6>
+                <div class="offer-card-text">
+                    Buy two chicken fried rice and get one free coke (250ml)
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
     <!--------------Order----------------->
     <section id="order">
     <div class="order-caption">
@@ -64,6 +85,7 @@
                     onions, carrots, celery, milk, garlic, wine, and herbs, and is usually
                      slow-cooked for several hours to develop the flavors.</div>
                      <div class="price">Rs.1500</div>
+                     <div class="order-now"><a href="">Order Now</a></div>
             </div>
             
             <div class="card">
@@ -77,7 +99,9 @@
                      flavours created by the Maillard reaction to shine through, without 
                      letting anything burn.</div>
                      <div class="price">Rs.1200</div>
+                     <div class="order-now"><a href="">Order Now</a></div>
             </div>
+
             <div class="card">
                 <div class="card-img">
                     <img src="images/food/noodles.jpg" alt="" class="img-img">
@@ -88,7 +112,31 @@
                      and egg noodles. The dish is typically seasoned with a savory blend of soy sauce,
                       garlic, ginger, and a touch of sesame oil, creating a perfect balance of flavors.</div>
                 <div class="price">Rs.1200</div>
+                <div class="order-now"><a href="">Order Now</a></div>
             </div>
             
         </div>
+    </section>
+
+
+<!--------------Reservations----------------->
+
+    <section id="reservation">
+    <div class="order-caption">
+            <h1 class="gctext">Reservations</h1>
+        </div>
+        <div class="reserve-card">
+                <div class="reserve-card-img">
+                <img src="images/tables/couple.jpg" alt="" class="reserve-img-img">
+                </div>
+                <h6 class="reserve-card-title">Couple Table</h3>
+                <div class="reserve-card-text">The perfect fried chicken is crispy on the outside,
+                     with a flavourful crust that contrasts and complements the tender 
+                     chicken it contains. The starch is deeply browned, allowing the complex 
+                     flavours created by the Maillard reaction to shine through, without 
+                     letting anything burn.</div>
+                     <div class="reserve-price">Available</div>
+                     <div class="reserve-order-now"><a href="">Reserve Today</a></div>
+            </div>
+
     </section>

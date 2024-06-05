@@ -41,6 +41,8 @@
     box-sizing: border-box;
    
 }
+
+/*--------------------- Home-------------------------- */
 .headbar{
     /* background-color: #ecd3d3; */
 }
@@ -235,6 +237,9 @@ header{
 .button2:hover{
     background-color: #ac979b;
 }
+
+/*--------------------- About-US-------------------------- */
+
 #about-us {
     position: relative;
     left: 60px;
@@ -325,6 +330,9 @@ header{
 .button3:hover{
     background-color: #ac979b;
 }
+
+/*--------------------- Gallery-------------------------- */
+
 #gallery {
     position: relative;
     left: 60px;
@@ -414,6 +422,72 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/*--------------------- Order-------------------------- */
+
+#offers{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 450px;  
+    width: 1300px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+.offer-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.offer-card{
+    background: #fad5d5;
+    width: 270px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease; 
+    animation-name: slideInDown;
+    animation-duration:1s ;
+}
+.offer-card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.offer-card-img{
+    background-color: #9d9bea;
+    height: 170px;
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+.offer-img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.offer-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.offer-card-text{
+    font-size: medium;
+    top: 10px;
+    margin: 10px;
+}
 #order {
     position: relative;
     left: 60px;
@@ -436,11 +510,10 @@ header{
 .card-container{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 .card{
-    background: #faf7f7;
+    background: #fad5d5;
     width: 270px;
     height: 480px;
     margin: 20px;
@@ -488,5 +561,86 @@ header{
     bottom: 0px;
     left: 0px;
     font-size: small;
+    margin: 10px;
+    font-weight: bold;
+}
+.order-now{
+    font-size: small;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 10px;
+}
+#reservation{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 700px;  
+    width: 1300px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+.reserve-card{
+    background: #fad5d5;
+    width: 270px;
+    height: 480px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.5s ease; 
+    animation-name: slideInDown;
+    animation-duration:1s ;
+}
+.reserve-card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.reserve-card-img{
+    background-color: #9d9bea;
+    height: 170px;
+    margin-bottom: 15px;
+    position: relative;
+    
+}
+.reserve-img-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.reserve-card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.reserve-card-text{
+    font-size: medium;
+    top: 10px;
+    margin: 10px;
+    
+}
+.reserve-price{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: small;
+    margin: 10px;
+    font-weight: bold;
+}
+.reserve-order-now{
+    font-size: small;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
     margin: 10px;
 }
