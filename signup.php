@@ -41,13 +41,40 @@
             </div>
         </div>
         <div class="sign-in">
-            <div class="welcome"> Welcome to SignUP </div>
+            <div class="welcome"> SignUP </div>
             <div class="paragraph"> Already have an account?</div>
             <a href="login.php"><input type="submit" class="signin-btn" value="Sign IN"></a>
 
         </div>
 
     </div>
-    
+     <!------------------Gallery ------------------------>
+     <section id="gallery">
+        <div class="gallerycaption">
+            <h1 class="gctext">Gallery</h1>
+        </div>
+        <div class="pic-container">
+            <div class="pic1">
+            <img src="images/7791.jpg" alt="picture" class="picture">
+            </div>
+            <div class="pic1">
+            <img src="images/8504.jpg" alt="picture"  class="picture">
+            </div>
+            <div class="pic1">
+            <img src="images/5324.jpg" alt="picture"  class="picture">
+            </div>
+            
+            <div class="pic2">
+            <img src="images/6471.jpg" alt="picture" class="picture">
+            </div>
+            <div class="pic3">
+            <img src="images/6798.jpg" alt="picture" class="picture">
+            </div> 
+            <div class="pic4">
+            <img src="images/4574.jpg" alt="picture" class="picture">
+            </div> 
+        </div>
+
+    </section>
 </body>
 </html>
