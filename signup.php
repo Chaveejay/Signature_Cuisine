@@ -19,15 +19,24 @@
             </div>
             
             <div class="form">
-            <form action="">
-                <div class="username">
-            <label for="username">UserName</label><br>
+            <form action="signupfunc.php" method="post">
+            <div class="username">
+            <label for="fname">FirstName</label><br>
             </div>
-            <input type="text" id="username" name="username" ><br>
+            <input type="text" id="username" name="fname" ><br>
+            <div class="username">
+            <label for="lname">LastName</label><br>
+            </div>
+            <input type="text" id="username" name="lname" ><br>
             <div class="password">
             <label for="email">Email</label><br>
             </div>
             <input type="text" id="email" name="email" ><br>
+            <div class="username">    
+            <label for="username">UserName</label><br>
+            </div>
+            <input type="text" id="username" name="username" ><br>
+            
             <div class="password">
             <label for="password">Password</label><br>
             </div>
@@ -36,7 +45,7 @@
             <label for="confirm-password">Confirm Password</label><br>
             </div>
             <input type="password" id="confirm-password" name="confirm-password" ><br><br>
-            <input type="submit" class="signup-btn" value="Sign UP">
+            <input type="submit" name="signup-btn" class="signup-btn" value="Sign UP">
             </form> 
             </div>
         </div>
@@ -48,33 +57,6 @@
         </div>
 
     </div>
-     <!------------------Gallery ------------------------>
-     <section id="gallery">
-        <div class="gallerycaption">
-            <h1 class="gctext">Gallery</h1>
-        </div>
-        <div class="pic-container">
-            <div class="pic1">
-            <img src="images/7791.jpg" alt="picture" class="picture">
-            </div>
-            <div class="pic1">
-            <img src="images/8504.jpg" alt="picture"  class="picture">
-            </div>
-            <div class="pic1">
-            <img src="images/5324.jpg" alt="picture"  class="picture">
-            </div>
-            
-            <div class="pic2">
-            <img src="images/6471.jpg" alt="picture" class="picture">
-            </div>
-            <div class="pic3">
-            <img src="images/6798.jpg" alt="picture" class="picture">
-            </div> 
-            <div class="pic4">
-            <img src="images/4574.jpg" alt="picture" class="picture">
-            </div> 
-        </div>
-
-    </section>
+     
 </body>
 </html>
