@@ -20,27 +20,32 @@
             
             <div class="form">
             <form action="signupfunc.php" method="post">
+                
             <div class="username">
             <label for="fname">FirstName</label><br>
             </div>
             <input type="text" id="username" name="fname" ><br>
+
             <div class="username">
             <label for="lname">LastName</label><br>
             </div>
             <input type="text" id="username" name="lname" ><br>
+
             <div class="password">
             <label for="email">Email</label><br>
             </div>
             <input type="text" id="email" name="email" ><br>
+
             <div class="username">    
             <label for="username">UserName</label><br>
             </div>
             <input type="text" id="username" name="username" ><br>
-            
+
             <div class="password">
             <label for="password">Password</label><br>
             </div>
             <input type="password" id="password" name="password" ><br>
+
             <div class="password">
             <label for="confirm-password">Confirm Password</label><br>
             </div>

@@ -20,26 +20,30 @@
             <div class="dropdown">
                 <div class="usertype">UserType</div>
 
-            <select name="language" id="drop-down">
+            <select name="user-type" id="drop-down">
             <option value="Admin">Admin</option>
             <option value="Staff">Staff</option>
             <option value="User" >User</option>
             </select>
             </div>
             <div class="form">
-            <form action="">
-                <div class="username">
+            <form action="loginfunc.php" method="post">
+            <div class="username">
             <label for="username">UserName</label><br>
             </div>
             <input type="text" id="username" name="username" ><br>
+
             <div class="password">
             <label for="password">Password</label><br>
             </div>
             <input type="password" id="password" name="password" ><br><br>
-            <input type="submit" class="signin-btn" value="Sign IN">
+
+            <input type="submit" name = "signin-btn" class="signin-btn" value="Sign IN">
             </form> 
             </div>
         </div>
+
+
         <div class="sign-up">
             <div class="welcome"> Welcome to Login </div>
             <div class="paragraph"> Don't have an account?</div>
