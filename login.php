@@ -51,10 +51,11 @@
 
 
         <div class="sign-up">
+       
             <div class="welcome"> Welcome to Login </div>
             <div class="paragraph"> Don't have an account?</div>
             <a href="signup.php" class=""><input type="submit" class="signup-btn" value="Sign UP"></a>
-
+            <a href="signup.php" class=""><input type="submit" class="guest" value="Guest Login"></a>
         </div>
 
     </div>

@@ -71,31 +71,7 @@
         
     </section>
 
-<!------------------About US ------------------------>
-    <section id="about-us"> 
-        <div class="inner-about">
-        <div class="about-img-box">
-                <img src="images\8504.jpg" alt="background-image" class="about-img"> 
-            </div>
-            
-            <!--------------- words section-------------------->
-            <div class="aboutus-words-area">
-                <div class="aboutus-caption">
-                    <h3>About US</h3>
-                </div>
-            <br>
-                <div class="paragraph2">
-                Founded in 1997, Signature Cuisine was born from a passion for exquisite food and exceptional hospitality.
-                At Signature Cuisine, we believe dining is an art form, a symphony of flavors, and a celebration of culture.<br><br>
-                 Nestled in the heart of Kandy, our restaurant is a culinary haven where tradition meets innovation,
-                  offering an unforgettable gastronomic journey.
-                </div>
-                <div class="button3">
-                            <a href="" > Read More</a> </div>      
-            </div>
 
-        </div>
-    </section>
     <!------------------Gallery ------------------------>
     <section id="gallery">
         <div class="gallerycaption">
@@ -124,7 +100,32 @@
         </div>
 
     </section>
-    
+
+<!------------------About US ------------------------>
+<section id="about-us"> 
+        <div class="inner-about">
+        <div class="about-img-box">
+                <img src="images\8504.jpg" alt="background-image" class="about-img"> 
+            </div>
+            
+            <!--------------- words section-------------------->
+            <div class="aboutus-words-area">
+                <div class="aboutus-caption">
+                    <h3>About US</h3>
+                </div>
+            <br>
+                <div class="paragraph2">
+                Founded in 1997, Signature Cuisine was born from a passion for exquisite food and exceptional hospitality.
+                At Signature Cuisine, we believe dining is an art form, a symphony of flavors, and a celebration of culture.<br><br>
+                 Nestled in the heart of Kandy, our restaurant is a culinary haven where tradition meets innovation,
+                  offering an unforgettable gastronomic journey.
+                </div>
+                <div class="button3">
+                            <a href="" > Read More</a> </div>      
+            </div>
+
+        </div>
+    </section>    
     
 </body>
 </html>

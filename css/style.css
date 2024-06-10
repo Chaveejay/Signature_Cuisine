@@ -644,3 +644,79 @@ header{
     right: 0px;
     margin: 10px;
 }
+
+/****************** contact us ************************/
+
+#contact{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 500px;  
+    width: 1300px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    
+}
+
+.contact-text{
+    position: relative;
+    display: flex;
+    margin: 20px;
+    font-family: poppins;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+
+}
+.contact-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 400px;
+    width: 500px;
+}
+
+.txt{
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.msg{
+    width: 500px;
+    height: 120px;
+    margin: 10px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.txt:focus{
+    outline: none; /* Remove the default outline */
+    border: 1px solid white;
+}
+.msg:focus{
+    outline: none; /* Remove the default outline */
+    border: 1px solid white;
+}
+.contact-btn{
+    position: relative;
+    left: 10px;
+    width: 80px;
+    height: 30px;
+    background: #c2b8b8;
+    border: 1px solid #c2b8b8;
+    color: white;
+
+}
+.contact-btn:hover{
+    background: #d08f8f;
+    transition: all 0.8s ease;
+}
+#contact .contact-form input::placeholder { /* Modern browsers */
+    padding-left: 10px;
+}

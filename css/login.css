@@ -75,7 +75,7 @@
 }
 .new{
     position: relative;
-    top:15px
+    top:20px
 }
 .form{
     position: relative;
@@ -148,4 +148,19 @@
 }
 .signup-btn:hover{
     background-color: #e2cccc;
+}
+.guest{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    top: 120px;
+    border-radius: 25px;
+    background-color: #dd6363;
+    color: #ffffff;
+    border: 1px solid white;
+    transition: all 0.8s ease;
+}
+    
+.guest:hover{
+        background-color: #e2cccc;
 }
