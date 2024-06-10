@@ -17,29 +17,35 @@
             <div class="sign-in">
                 Sign In
             </div>
-            <div class="dropdown">
-                <div class="usertype">UserType</div>
-
-            <select name="user-type" id="drop-down">
-            <option value="Admin">Admin</option>
-            <option value="Staff">Staff</option>
-            <option value="User" >User</option>
-            </select>
-            </div>
+            
             <div class="form">
             <form action="loginfunc.php" method="post">
-            <div class="username">
-            <label for="username">UserName</label><br>
+
+            <div class="dropdown">
+                      
+                    <div class="usertype">UserType</div>
+
+                <select name="user-type" id="drop-down">
+                    <option value="Admin">Admin</option>
+                    <option value="Staff">Staff</option>
+                    <option value="User" >User</option>
+                </select>
             </div>
-            <input type="text" id="username" name="username" ><br>
+            <div class="new">
+
+            <div class="username">
+                 <label for="username">UserName</label><br>
+            </div>
+              <input type="text" id="username" name="username" ><br>
 
             <div class="password">
-            <label for="password">Password</label><br>
+              <label for="password">Password</label><br>
             </div>
             <input type="password" id="password" name="password" ><br><br>
 
             <input type="submit" name = "signin-btn" class="signin-btn" value="Sign IN">
-            </form> 
+            </div>
+        </form> 
             </div>
         </div>
 
