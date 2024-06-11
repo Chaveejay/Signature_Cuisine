@@ -4,3 +4,144 @@
     /* background-color: #4a4646; */
     box-sizing: border-box;
 }
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+@keyframes slideInDown {
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+@keyframes slideInUp {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+@keyframes slideInRight {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+    
+}
+
+.headbar{
+    display: flex;
+}
+.logo {
+    color: #df5674;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0px auto 0px 0px;
+    display: flex;
+    align-items: center;
+    font-family:Monoton;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 20px;    
+}
+
+.logo span{
+    font-size: 0.7rem;
+    margin-left: 5px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.admin-caption{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    top:20px;
+    font-size: 2rem;
+    font-weight: bold;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+#admin{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 550px;  
+    width: 1300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+.button-container{
+    position: relative;
+    margin: 80px 370px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background: #df5674; */
+}
+.btn1{
+    background: #a89e9f;
+    width: 250px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 200px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.8s ease;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+}
+.btn1 a{
+    text-decoration: none;
+    color: #000000;
+}
+.btn1:hover{
+    background: #827779;
+}
+
+.logout{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: #a89e9f;
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.8s ease;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+
+.logout:hover{
+    background: #827779;
+}
+.logout a{
+    text-decoration: none;
+    color: #000000;
+}

@@ -15,7 +15,7 @@ if (isset($_POST['signin-btn'])) {
         // Admin login
         if ($username === 'Admin' && $password === 'Admin') {
             // Admin credentials are correct, redirect to admin dashboard
-            header("Location: admin_dashboard.php");
+            header("Location: admin.php");
             exit();
         } else {
             // Admin credentials are incorrect, display an error message
