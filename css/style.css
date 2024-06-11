@@ -652,7 +652,7 @@ header{
     left: 60px;
     top: 10px;
     background-color: #e7e1e2;   
-    height: 500px;  
+    height: 550px;  
     width: 1300px;
     font-size: 40px;
     margin: 10px;
@@ -670,6 +670,8 @@ header{
     font-size: 2rem;
     font-weight: bold;
     justify-content: center;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
 
 }
 .contact-form{
@@ -679,6 +681,8 @@ header{
     justify-content: center;
     left: 400px;
     width: 500px;
+    animation-name: slideInRight;
+    animation-duration:1s ;
 }
 
 .txt{
@@ -718,5 +722,8 @@ header{
     transition: all 0.8s ease;
 }
 #contact .contact-form input::placeholder { /* Modern browsers */
+    padding-left: 10px;
+}
+#contact .contact-form input{ 
     padding-left: 10px;
 }

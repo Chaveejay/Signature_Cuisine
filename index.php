@@ -29,7 +29,7 @@
                 <li><a href="services.php">Services</a></li>
                 <li><a href="gallery.php">Gallery </a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li><a href="index.php">Contact Us</a></li>            
+                <li><a href="contactus.php">Contact Us</a></li>            
             </ul>
         </nav>
             <form class="search" >

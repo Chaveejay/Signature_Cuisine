@@ -29,7 +29,7 @@
                 <li><a href="services.php">Services</a></li>
                 <li><a href="gallery.php">Gallery </a></li>
                 <li><a href="about.php">About Us</a></li>
-                <li><a href="index.php">Contact Us</a></li>            
+                <li><a href="contactus.php">Contact Us</a></li>            
             </ul>
         </nav>
             <form class="search" >
@@ -44,7 +44,7 @@
      <!--contact us form -->
      <div class="contact-text">Contact US</div>
      <div class="contact-form">
-     <form action="ContactUs.php"  method ="POST">
+     <form action="contactfunc.php"  method ="POST">
 
                 <input type="text" class="txt" name="name" placeholder="Your Name"  required/>
                
