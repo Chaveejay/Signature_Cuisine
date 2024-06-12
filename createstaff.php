@@ -21,20 +21,26 @@
     </div>
     <!------------------Admin Panel------------------------->
     <section id="create-staff">
+        <div class="create-staff-caption"> Create Staff Account</div>
+        <form action="createstafffunc.php" method="post">
         <div class="staff-form">
-        <form action="">
-            
-            <input type="text" id="fname" name="fname" placeholder =" First Name" >
-            <input type="text" id="lname" name="lname" placeholder =" Last Name" >
-            
-        <!-- <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" ><br>
-
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br>
-        <input type="submit" value="Submit"> -->
+            <input type="text" id="fname" name="fname" placeholder =" First Name" required/>
+            <input type="text" id="lname" name="lname" placeholder =" Last Name" required/>
+            <input type="text" id="job" name="job" placeholder =" Job Position" required/>
+            <input type="text" id="email" name="email" placeholder =" Email" required/>
+            <input type="text" id="username" name="username" placeholder =" Username" required/>
+            <input type="text" id="password" name="password" placeholder =" Password" required/>
+            <input type="text" id="con-password" name="con-password" placeholder =" Confirm Password" required/>
+            <button type="submit" class="create-staff-btn" name="create-staff-btn">
+                 Create Account
+              </button>
+              </div>
         </form> 
-        </div>
+        <button type="submit" class="back-btn-cstaff" name="back-btn-cstaff">
+            <a href="admin.php">
+                Back
+                </a>
+              </button>
 
 
     </section>

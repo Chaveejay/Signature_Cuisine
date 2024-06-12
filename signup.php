@@ -24,32 +24,32 @@
             <div class="username">
             <label for="fname">FirstName</label><br>
             </div>
-            <input type="text" id="username" name="fname" ><br>
+            <input type="text" id="username" name="fname" required/><br>
 
             <div class="username">
             <label for="lname">LastName</label><br>
             </div>
-            <input type="text" id="username" name="lname" ><br>
+            <input type="text" id="username" name="lname" required/><br>
 
             <div class="password">
             <label for="email">Email</label><br>
             </div>
-            <input type="text" id="email" name="email" ><br>
+            <input type="text" id="email" name="email" required/><br>
 
             <div class="username">    
             <label for="username">UserName</label><br>
             </div>
-            <input type="text" id="username" name="username" ><br>
+            <input type="text" id="username" name="username" required/><br>
 
             <div class="password">
             <label for="password">Password</label><br>
             </div>
-            <input type="password" id="password" name="password" ><br>
+            <input type="password" id="password" name="password" required/><br>
 
             <div class="password">
             <label for="confirm-password">Confirm Password</label><br>
             </div>
-            <input type="password" id="confirm-password" name="confirm-password" ><br><br>
+            <input type="password" id="confirm-password" name="confirm-password" required/><br><br>
             <input type="submit" name="signup-btn" class="signup-btn" value="Sign UP">
             </form> 
             </div>

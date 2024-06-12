@@ -36,12 +36,12 @@
             <div class="username">
                  <label for="username">UserName</label><br>
             </div>
-              <input type="text" id="username" name="username" ><br>
+              <input type="text" id="username" name="username" required/><br>
 
             <div class="password">
               <label for="password">Password</label><br>
             </div>
-            <input type="password" id="password" name="password" ><br><br>
+            <input type="password" id="password" name="password" required/><br><br>
 
             <input type="submit" name = "signin-btn" class="signin-btn" value="Sign IN">
             </div>

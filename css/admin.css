@@ -160,12 +160,42 @@
     justify-content: center;
     align-items: center;
 }
-.staff-form{
-    height: 100px;
-    width: 300px;
-    padding: 10px;
-    background: #a89e9f;
+.create-staff-caption{
+    font-family: poppins;
+    font-size: 1.8rem;
+    font-weight: bold;
 }
-/* #fname{
-    width: 50px;
-} */
+.staff-form{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 700px;
+    padding: 10px;
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+    /* background: #a89e9f; */
+    justify-content: center;
+}
+#fname, #lname,#email , #username, #password ,#con-password ,#job {
+    margin: 5px;
+    width: 450px;
+    height: 30px;
+} 
+.create-staff-btn{
+    position: relative;
+    left: 140px;
+    margin-top: 5px;
+    height: 30px;
+    width: 150px;
+}
+.back-btn-cstaff{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    left: 500px;
+}
+.back-btn-cstaff a{
+    text-decoration: none;
+    color: #000000;
+}
