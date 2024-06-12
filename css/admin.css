@@ -145,3 +145,27 @@
     text-decoration: none;
     color: #000000;
 }
+
+/* Create Staff Account */
+#create-staff{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 550px;  
+    width: 1300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.staff-form{
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    background: #a89e9f;
+}
+/* #fname{
+    width: 50px;
+} */
