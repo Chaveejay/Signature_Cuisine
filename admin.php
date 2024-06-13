@@ -24,10 +24,10 @@
         <div class="admin-caption"> Admin Panel</div>
         <div class="button-container">
             <div class="btn1"><a href="createstaff.php"> Create new Staff Account </a></div>
-            <div class="btn1"><a href=""> View Existing Staff Accounts</a></div>
-            <div class="btn1"> <a href="">Update/Delete Staff Accounts</a></div>
-            <div class="btn1"><a href=""> View Existing User Accounts</a></div>
-            <div class="btn1"> <a href="">Update/Delete User Accounts</a></div>
+            <div class="btn1"><a href="viewstaff.php"> View Existing Staff Accounts</a></div>
+            <div class="btn1"> <a href="update_delete_staff.php">Update/Delete Staff Accounts</a></div>
+            <div class="btn1"><a href="viewuser.php"> View Existing User Accounts</a></div>
+            <div class="btn1"> <a href="update_delete_user.php">Update/Delete User Accounts</a></div>
         </div>
 
             <div class="logout"><a href="login.php">Logout</a></div>

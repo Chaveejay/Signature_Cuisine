@@ -19,7 +19,7 @@
                 Signature<span> Cuisine</span>
             </a>
     </div>
-    <!------------------Admin Panel------------------------->
+    <!------------------Create Staff Account------------------------->
     <section id="create-staff">
         <div class="create-staff-caption"> Create Staff Account</div>
         <form action="createstafffunc.php" method="post">
@@ -29,8 +29,8 @@
             <input type="text" id="job" name="job" placeholder =" Job Position" required/>
             <input type="text" id="email" name="email" placeholder =" Email" required/>
             <input type="text" id="username" name="username" placeholder =" Username" required/>
-            <input type="text" id="password" name="password" placeholder =" Password" required/>
-            <input type="text" id="con-password" name="con-password" placeholder =" Confirm Password" required/>
+            <input type="password" id="password" name="password" placeholder =" Password" required/>
+            <input type="password" id="con-password" name="con-password" placeholder =" Confirm Password" required/>
             <button type="submit" class="create-staff-btn" name="create-staff-btn">
                  Create Account
               </button>
@@ -44,3 +44,5 @@
 
 
     </section>
+</body>
+</html>

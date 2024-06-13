@@ -164,6 +164,8 @@
     font-family: poppins;
     font-size: 1.8rem;
     font-weight: bold;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
 }
 .staff-form{
     display: flex;
@@ -176,8 +178,10 @@
     bottom: 30px;
     /* background: #a89e9f; */
     justify-content: center;
+    animation-name: slideInRight;
+    animation-duration:1s ;
 }
-#fname, #lname,#email , #username, #password ,#con-password ,#job {
+#fname, #lname,#email , #username, #password ,#con-password ,#job, #position {
     margin: 5px;
     width: 450px;
     height: 30px;
@@ -194,8 +198,208 @@
     height: 30px;
     width: 100px;
     left: 500px;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
 }
 .back-btn-cstaff a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/********* View Staff **********/
+#view-staff{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 550px;  
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.view-staff-caption{
+    position: relative;
+    margin: 20px;
+    font-family: poppins;
+    font-size: 1.8rem;
+    font-weight: bold;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+}
+
+.view-staff-table{
+    position: relative;
+    top: 20px;
+    width: 1000px;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+.view-staff-tbl{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+.view-staff-tbl td, .view-staff-tbl tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.view-staff-tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+.view-staff-tbl tr:hover {background-color: #ddd;}
+
+.view-staff-tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #df5674;
+  color: white;
+  text-align: center;
+}
+
+.back-btn-vstaff{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    left: 550px;
+    top: 300px;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+}
+.back-btn-vstaff a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/************ Update/Delete Staff ***********/
+#update-staff{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    background-color: #e7e1e2;   
+    height: 550px;  
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.update-staff-caption{
+    position: relative;
+    margin: 20px;
+    font-family: poppins;
+    font-size: 1.8rem;
+    font-weight: bold;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+}
+
+.update-staff-table{
+    position: relative;
+    top: 20px;
+    width: 1200px;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+.update-staff-tbl{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    }
+.update-staff-tbl td, .view-staff-tbl tr{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.update-staff-tbl tr:nth-child(even){background-color: #f2f2f2;}
+
+.update-staff-tbl tr:hover {background-color: #ddd;}
+
+.update-staff-tbl th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #df5674;
+  color: white;
+  text-align: center;
+}
+
+.back-btn-ustaff{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    left: 550px;
+    top: 300px;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+}
+.back-btn-ustaff a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/********** Update Staff *************/
+
+.update-staff-form{
+
+    height: 400px;
+    width: 700px;
+    padding: 10px;
+    position: relative;
+    left: 130px;
+    top: 20px;
+     /* background: #a89e9f;  */
+    justify-content: center;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+#update-fname, #update-lname,#update-email , #update-username, #update-password ,#update-con-password ,#update-position, #update-position {
+    margin: 5px;
+    width: 450px;
+    height: 30px;
+}
+#update-lname{
+    position: relative;
+    left: 2px;
+}
+#update-position{
+    position: relative;
+    left: 19px;
+}
+#update-email{
+    position: relative;
+    left: 34px;
+}
+#update-username{
+    position: relative;
+    left: 7px;
+}
+#update-password{
+    position: relative;
+    left: 9px;
+}
+.btn-container-staff-update{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    right: 80px;
+}
+
+#update-staff-btn{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+}
+.update-staff-back{
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+.update-staff-back a{
     text-decoration: none;
     color: #000000;
 }
