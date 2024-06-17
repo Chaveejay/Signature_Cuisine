@@ -44,15 +44,45 @@
                 </button>
             </form>
     </header>
+
+    <script>
+        document.getElementById('search-button').addEventListener('click', function() {
+            var searchInput = document.getElementById('search-input').value.toLowerCase();
+            var sections = document.querySelectorAll('.card, .reserve-card, .offer-card');
+            var found = false;
+
+            // Remove previous highlights
+            sections.forEach(function(section) {
+                section.style.backgroundColor = ''; // remove highlight
+            });
+
+            sections.forEach(function(section) {
+                if (section.innerText.toLowerCase().includes(searchInput)) {
+                    section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    section.style.backgroundColor = '#ffff99'; // highlight the found section
+                    found = true;
+                }
+            });
+
+            if (!found) {
+                document.getElementById('search-result-text').innerText = "No results found for: " + searchInput;
+            } else {
+                document.getElementById('search-result-text').innerText = "";
+            }
+        });
+    </script>
+
     <!------------------Header-end------------------------>
 
     <!------------------Services------------------------>
 
 <!--------------Offers----------------->
+
     <section id="offers">
     <div class="order-caption">
             <h1 class="gctext">Offers</h1>
         </div>
+
         <div class="offer-card-container">
             <div class="offer-card">
             <div class="offer-card-img">
@@ -122,22 +152,38 @@
 <!--------------Reservations----------------->
 
     <section id="reservation">
+    
     <div class="order-caption">
             <h1 class="gctext">Reservations</h1>
         </div>
-        <div class="reserve-card">
-                <div class="reserve-card-img">
-                <img src="images/tables/couple.jpg" alt="" class="reserve-img-img">
-                </div>
-                <h6 class="reserve-card-title">Couple Table</h3>
-                <div class="reserve-card-text">The perfect fried chicken is crispy on the outside,
-                     with a flavourful crust that contrasts and complements the tender 
-                     chicken it contains. The starch is deeply browned, allowing the complex 
-                     flavours created by the Maillard reaction to shine through, without 
-                     letting anything burn.</div>
-                     <div class="reserve-price">Available</div>
-                     <div class="reserve-order-now"><a href="">Reserve Today</a></div>
+        <div class="card-container-reserve">
+            <div class="reserve-card">
+                    <div class="reserve-card-img">
+                    <img src="images/tables/couple.jpg" alt="" class="reserve-img-img">
+                    </div>
+                    <h6 class="reserve-card-title">Couple Table</h3>
+                    <div class="reserve-card-text">Experience a romantic dining atmosphere with our exclusive Couple Table reservation.
+                        Nestled in a cozy corner of our restaurant, this table offers an intimate setting perfect for special occasions
+                        or a memorable evening out. 
+                            </div>
+                        <div class="reserve-price">Available</div>
+                        <div class="reserve-order-now"><a href="">Reserve Today</a></div>
             </div>
+
+            <div class="reserve-card">
+                    <div class="reserve-card-img">
+                    <img src="images/tables/family.jpg" alt="" class="reserve-img-img">
+                    </div>
+                    <h6 class="reserve-card-title">Family Table</h3>
+                    <div class="reserve-card-text">Gather your loved ones for a delightful dining experience at our Family Table.
+                         Designed to accommodate larger groups, this spacious table provides the perfect setting for family gatherings,
+                          celebrations, and casual get-togethers.
+                            </div>
+                        <div class="reserve-price">Available</div>
+                        <div class="reserve-order-now"><a href="">Reserve Today</a></div>
+            </div>
+
+    </div>
 
     </section>
 

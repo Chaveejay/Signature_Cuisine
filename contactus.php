@@ -32,12 +32,7 @@
                 <li><a href="contactus.php">Contact Us</a></li>            
             </ul>
         </nav>
-            <form class="search" >
-               <input type="text" placeholder="Search.." id="search-input">
-               <button type="button" id="search-button">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
+            
     </header>
     <!------------------Header-end------------------------>
 <section id="contact">

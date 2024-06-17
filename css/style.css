@@ -585,6 +585,12 @@ header{
     justify-content: flex-start; 
     align-items: center;
 }
+
+.card-container-reserve{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
 .reserve-card{
     background: #fad5d5;
     width: 270px;
