@@ -115,7 +115,7 @@
                     onions, carrots, celery, milk, garlic, wine, and herbs, and is usually
                      slow-cooked for several hours to develop the flavors.</div>
                      <div class="price">Rs.1500</div>
-                     <div class="order-now"><a href="">Order Now</a></div>
+                     <div class="order-now"><a href="checkout.php">Order Now</a></div>
             </div>
             
             <div class="card">
@@ -129,7 +129,7 @@
                      flavours created by the Maillard reaction to shine through, without 
                      letting anything burn.</div>
                      <div class="price">Rs.1200</div>
-                     <div class="order-now"><a href="">Order Now</a></div>
+                     <div class="order-now"><a href="checkout.php">Order Now</a></div>
             </div>
 
             <div class="card">
@@ -142,7 +142,7 @@
                      and egg noodles. The dish is typically seasoned with a savory blend of soy sauce,
                       garlic, ginger, and a touch of sesame oil, creating a perfect balance of flavors.</div>
                 <div class="price">Rs.1200</div>
-                <div class="order-now"><a href="">Order Now</a></div>
+                <div class="order-now"><a href="checkout.php">Order Now</a></div>
             </div>
             
         </div>

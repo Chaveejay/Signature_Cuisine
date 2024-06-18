@@ -751,3 +751,156 @@ header{
     height: 100%;
     object-fit: cover;
 }
+
+/************ Checkout************/
+#checkout{
+    position: relative;
+    left: 100px;
+    top: 40px;
+    background-color: #e7e1e2;   
+    height: 650px;  
+    width: 1300px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+.checkout-caption{
+    position: relative;
+    top: 20px;
+    font-size: 1.8rem;
+    animation-name: slideInLeft;
+    animation-duration:1s ;
+
+}
+.checkout-form{
+    position: relative;
+    top: 40px;
+    font-size: 1.2rem;
+    left: 20px;
+    animation-name: slideInRight;
+    animation-duration:1s ;
+}
+.form-control{
+    margin: 10px 0px;
+    width: 400px;
+    height: 30px;
+}
+.form-control-1{
+    margin: 10px 0px;
+    width: 400px;
+    height: 100px;
+}
+.checkbox-area{
+    position: relative;
+    height: 100px;
+    width: 500px;
+    margin: 20px 0px;
+    /* background-color: #5f2f2f; */
+}
+.form-control-quantity-input{
+    position: relative;
+    left: 10px;
+    width: auto;
+    height: 30px;
+
+}
+
+.checkbox-tbl {
+    border-spacing: 5px 1rem;
+}
+
+.clear-btn{
+    width: 100px;
+    height: 30px;
+}
+.submit-checkout-btn{
+    position: relative;
+    right: 50px;
+    width: 150px;
+    height: 30px;
+}
+.submit-checkout-btn:hover{
+    cursor: pointer;
+}
+.checkout-back-btn{
+    position: relative;
+    right: 50px;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+.checkout-back-btn a{
+    text-decoration: none;
+    color: black;
+}
+.clear-btn:hover{
+    cursor: pointer;
+}
+
+/************ Reservations************/
+
+#reservations{
+    position: relative;
+    left: 100px;
+    top: 40px;
+    background-color: #e7e1e2;   
+    height: 600px;  
+    width: 1300px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.reserve-title{
+    position: relative;
+    top: 80px;
+    font-size: 1.8rem;
+}
+.reserve-form{
+    /* background-color: #5f2f2f; */
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    font-size: 1.2rem;
+    
+    
+}
+#reserve-drop-down{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+}
+#date{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+}
+.div1{
+    margin: 20px 0px;
+}
+
+#cname{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+}
+#contact-no{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    height: 30px;
+}
+.reserve-tbl{
+    border-spacing: 5px 1rem;
+}
