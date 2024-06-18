@@ -1,7 +1,7 @@
 <?php
 function goback()
 { 
-    header("refresh:1; url=checkout.php");
+    header("refresh:1; url=services.php");
     exit;
 }
 $servername = "localhost"; 

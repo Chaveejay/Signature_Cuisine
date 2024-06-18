@@ -861,6 +861,8 @@ header{
     position: relative;
     top: 80px;
     font-size: 1.8rem;
+    animation-name: slideInRight;
+    animation-duration:1s ;
 }
 .reserve-form{
     /* background-color: #5f2f2f; */
@@ -870,8 +872,8 @@ header{
     top: 100px;
     left: 40px;
     font-size: 1.2rem;
-    
-    
+    animation-name: slideInLeft;
+    animation-duration:1s ;
 }
 #reserve-drop-down{
     position: relative;
@@ -895,7 +897,7 @@ header{
     width: 300px;
     height: 30px;
 }
-#contact-no{
+#reserve-contact-no{
     position: relative;
     left: 20px;
     width: 300px;
@@ -903,4 +905,37 @@ header{
 }
 .reserve-tbl{
     border-spacing: 5px 1rem;
+}
+.clear-btn-reservation{
+    position: relative;
+    top: 10px;
+    width: 100px;
+    height: 30px;
+}
+.clear-btn-reservation:hover{
+    cursor: pointer;
+}
+.submit-reservation-btn{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    width: 100px;
+    height: 30px;
+}
+.submit-reservation-btn:hover{
+    cursor: pointer;
+}
+.reserve-back-btn{
+    position: relative;
+    top: 10px;
+    left: 120px;
+    width: 100px;
+    height: 30px;
+}
+.reserve-back-btn:hover{
+    cursor: pointer;
+}
+.reserve-back-btn a{
+    text-decoration: none;
+    color: black;
 }

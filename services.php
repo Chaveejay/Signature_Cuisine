@@ -3,7 +3,7 @@
 <head>
 
     <link rel="icon" href="images\icon.png" type="image/gif" />
-    <title>Signature Cuisine</title>
+    <title>Services</title>
     <link rel="stylesheet" href="css\style.css" >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -167,7 +167,7 @@
                         or a memorable evening out. 
                             </div>
                         <div class="reserve-price">Available</div>
-                        <div class="reserve-order-now"><a href="">Reserve Today</a></div>
+                        <div class="reserve-order-now"><a href="reservations.php">Reserve Today</a></div>
             </div>
 
             <div class="reserve-card">
@@ -180,7 +180,7 @@
                           celebrations, and casual get-togethers.
                             </div>
                         <div class="reserve-price">Available</div>
-                        <div class="reserve-order-now"><a href="">Reserve Today</a></div>
+                        <div class="reserve-order-now"><a href="reservations.php">Reserve Today</a></div>
             </div>
 
     </div>

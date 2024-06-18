@@ -110,6 +110,7 @@
 }
 .signin-btn:hover{
     background-color: #e2cccc;
+    cursor: pointer;
 }
 .sign-up{
     position: relative;
@@ -148,6 +149,7 @@
 }
 .signup-btn:hover{
     background-color: #e2cccc;
+    cursor: pointer;
 }
 .guest{
     position: relative;
@@ -162,5 +164,6 @@
 }
     
 .guest:hover{
-        background-color: #e2cccc;
+    cursor: pointer;
+    background-color: #e2cccc;
 }

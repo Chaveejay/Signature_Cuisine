@@ -3,7 +3,7 @@
 <head>
 
     <link rel="icon" href="images\icon.png" type="image/gif" />
-    <title>Signature Cuisine</title>
+    <title>Contact US</title>
     <link rel="stylesheet" href="css\style.css" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
