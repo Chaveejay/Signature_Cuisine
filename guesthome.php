@@ -25,12 +25,12 @@
         <!------------------Navigation------------------------->
         <nav>
             <ul class = "nav_links">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="services.php">Services</a></li>
-                <li><a href="gallery.php">Gallery </a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="contactus.php">Contact Us</a></li>     
-                <li>  <div class = "loginbtn"><a href="login.php"> <img src="images\logout.png" alt=""></a></div></li>        
+                <li><a href="guesthome.php">Home</a></li>
+                <li><a href="guestservices.php">Services</a></li>
+                <li><a href="guestgallery.php">Gallery </a></li>
+                <li><a href="guestabout.php">About Us</a></li>
+                <li><a href="guestcontactus.php">Contact Us</a></li>    
+                <li>  <div class = "loginbtn"><a href="login.php"> <img src="images\logout.png" alt=""></a></div></li>         
             </ul>
         </nav>
             
@@ -58,9 +58,9 @@
                 </div>
                        <div class="btncontrainer">
                             <div class="button1">
-                            <a href="services.php"> Services</a> </div>
+                            <a href="guestservices.php"> Services</a> </div>
                             <div class="button2">
-                            <a href="about.php"> About US</a> </div>
+                            <a href="guestabout.php"> About US</a> </div>
                        </div>
             </div>
         </div>
