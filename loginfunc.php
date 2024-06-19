@@ -30,7 +30,7 @@ if (isset($_POST['signin-btn'])) {
 
         if ($count > 0) {
             // Staff credentials are correct, redirect to staff dashboard
-            header("Location: staff_dashboard.php");
+            header("Location: staff.php");
             exit();
         } else {
             // Staff credentials are incorrect, display an error message
