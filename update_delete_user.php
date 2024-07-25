@@ -21,7 +21,7 @@
             </a>
     </div>
     <section id="update-staff">
-    <div class="update-staff-caption"> Update Staff Account</div>
+    <div class="update-staff-caption"> Update User Account</div>
     <div class="update-staff-table">
     <table class ="update-staff-tbl">
         
